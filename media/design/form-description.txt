@@ -1,0 +1,7 @@
+﻿Title: Подписка «Парфюмерная афиша»
+Palette: #8741ff (primary), #ffd1dc (accent), #0f0e17 (text)
+Fields:
+  - Email input with rounded corners, icon of paper plane on the right
+  - Consent checkbox styled as pill with outline
+  - Submit button gradient from #8741ff to #ff6ec7
+Note: Используйте тень 0 12px 40px rgba(135,65,255,0.3) и шрифт Playfair Display для заголовка.

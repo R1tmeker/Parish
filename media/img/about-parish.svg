@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b233d"/>
+      <stop offset="100%" stop-color="#7f6ae5"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="420" rx="40" fill="url(#bg)"/>
+  <g transform="translate(80,80)">
+    <circle cx="120" cy="120" r="110" fill="#ffffff22"/>
+    <circle cx="220" cy="140" r="90" fill="#ffffff12"/>
+    <path d="M60 200 C90 150 160 120 200 60" stroke="#ffd1dc" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <text x="20" y="240" font-family="'Playfair Display', serif" font-size="36" fill="#fef8ff">Париш — ароматный дом</text>
+  </g>
+</svg>

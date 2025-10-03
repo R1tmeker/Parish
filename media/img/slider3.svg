@@ -1,0 +1,13 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='480' height='320' viewBox='0 0 480 320'>
+  <defs>
+    <linearGradient id='grad-' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color=''/>
+      <stop offset='100%' stop-color=''/>
+    </linearGradient>
+  </defs>
+  <rect width='480' height='320' rx='32' fill='url(#grad-)'/>
+  <circle cx='360' cy='120' r='80' fill='#ffffff33'/>
+  <circle cx='120' cy='220' r='60' fill='#ffffff4d'/>
+  <text x='40' y='90' font-family='"Playfair Display", serif' font-size='36' fill='#2b233d'></text>
+  <text x='40' y='140' font-family='"Playfair Display", serif' font-size='18' fill='#2b233d99'>Парфюмерный конкурс</text>
+</svg>
