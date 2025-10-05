@@ -19,12 +19,24 @@
         <div class="overlay-text">
           <h2 class="animated-fade">О КАК</h2>
           <p class="animated-fade delay-1">Такой страницы не существует...</p>
-          <a href="Parish/index.html" class="btn btn-outline-light animated-fade delay-2">На главную</a>
+          <a href="../index.html" id="to-home" class="btn btn-outline-light animated-fade delay-2">На главную</a>
         </div>
       </div>
 
       <h1 class="error-number glow-text">4</h1>
     </div>
   </div>
+    <script>
+      // Fallback: если по какой-то причине ссылка не сработает, обеспечим навигацию через JS
+      (function(){
+        var btn = document.getElementById('to-home');
+        if (!btn) return;
+        btn.addEventListener('click', function(e){
+          setTimeout(function(){
+            try { window.location.href = btn.getAttribute('href') || '../index.html'; } catch(err){}
+          }, 50);
+        });
+      })();
+    </script>
 </body>
 </html>
