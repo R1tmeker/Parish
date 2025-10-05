@@ -12,13 +12,17 @@
   <header class="site-header">
     <div class="page-shell">
       <a class="brand" href="#hero">
-        <img src="media/img/logo-parish.svg" alt="Логотип Париш" />
-        <span class="tagline">Лучшие ароматы Париша почти как в Париже</span>
+        <img src="media/img/logo-parish.svg" alt="Логотип Parish" />
+        <span class="tagline">Лучшие ароматы ? почти как в Париже</span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Показать меню">
-        ☰
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Открыть меню" data-close-label="Закрыть меню">
+        <span class="nav-toggle-lines" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
       </button>
-      <nav id="primary-nav" class="site-nav" aria-label="Основное">
+      <nav id="primary-nav" class="site-nav" aria-label="Основная навигация">
         <a href="registration.html">Регистрация</a>
         <a href="#auth">Авторизация</a>
         <a href="account.html">Личный кабинет</a>
@@ -26,7 +30,7 @@
         <a href="#competitions">Конкурсы</a>
         <a href="#search">Поиск</a>
         <a href="#contacts">Контакты</a>
-        <a class="theme-toggle" href="index-light.html" aria-label="Включить светлую тему">☀ Светлая тема</a>
+        <a class="theme-toggle" href="index-light.html" aria-label="Переключить на светлую тему">Светлая тема</a>
       </nav>
     </div>
   </header>
@@ -35,94 +39,66 @@
     <section class="hero" id="hero">
       <div class="page-shell">
         <div class="hero-copy">
-          <span class="section-label">Парижский шарм</span>
-          <h1 class="section-title">Париш — ароматный дом, где каждая нота звучит индивидуально</h1>
-          <p class="lead">Мы собираем лучших парфюмеров страны, чтобы создать коллекцию ароматов, которые перенесут вас в самое сердце Парижа. Присоединяйтесь к конкурсам и вдохновляйтесь вместе с нами.</p>
+          <span class="section-label">Парфюмерный дом</span>
+          <h1 class="section-title">Parish ? ароматы, которые звучат, как большие города</h1>
+          <p class="lead">Мы создаём лимитированные коллекции, соединяя французскую школу и смелые аккорды нишевой парфюмерии. Найдите историю, которая подчеркнёт ваш характер.</p>
           <div class="actions">
-            <a class="btn" href="competition.html">Исследовать конкурсы</a>
-            <a class="btn btn-secondary" href="#competitions">Список мероприятий</a>
+            <a class="btn" href="competition.html">Смотреть конкурсы</a>
+            <a class="btn btn-secondary" href="#competitions">Актуальные релизы</a>
           </div>
           <div class="hero-stats">
             <div class="stat">
               <strong>25</strong>
-              <span>эксклюзивных конкурсов</span>
+              <span>международных наград</span>
             </div>
             <div class="stat">
               <strong>3 200+</strong>
-              <span>участников за прошлый год</span>
+              <span>участников сообщества</span>
             </div>
             <div class="stat">
               <strong>98%</strong>
-              <span>гостей рекомендуют Париш</span>
+              <span>гостей возвращаются за повторным флаконом</span>
             </div>
           </div>
         </div>
 
-        <div class="hero-slider">
-          <div class="slider-track">
-            <article class="slider-card">
-              <div class="slider-body">
-                <span class="badge-rating"><span class="icon-star"></span> 4,9</span>
-                <h2 class="section-title">Ароматическая дуэль</h2>
-                <p>Участники создают композиции в реальном времени, вдохновляясь легендарными ароматами Парижа. Голосование проходит в прямом эфире.</p>
-                <div class="slider-meta">
-                  <span>Дата: 12 июля</span>
-                  <span>Участников: 12 дуэтов</span>
-                </div>
-                <div class="slider-actions">
-                  <a class="btn" href="competition.html">Подробнее</a>
-                </div>
-              </div>
-              <div class="slider-media">
-                <img src="media/img/slider1.svg" alt="Превью конкурса Ароматическая дуэль" />
-              </div>
-            </article>
-
-            <article class="slider-card" aria-hidden="true">
-              <div class="slider-body">
-                <span class="badge-rating"><span class="icon-star"></span> 4,8</span>
-                <h2 class="section-title">Парфюм будущего</h2>
-                <p>Инженеры ароматов представляют ароматы, созданные с помощью ИИ. Эксперты выбирают лучший футуристический букет года.</p>
-                <div class="slider-meta">
-                  <span>Дата: 14 июля</span>
-                  <span>Участников: 18 проектов</span>
-                </div>
-                <div class="slider-actions">
-                  <a class="btn" href="competition.html">Подробнее</a>
-                </div>
-              </div>
-              <div class="slider-media">
-                <img src="media/img/slider2.svg" alt="Превью конкурса Парфюм будущего" />
-              </div>
-            </article>
-
-            <article class="slider-card" aria-hidden="true">
-              <div class="slider-body">
-                <span class="badge-rating"><span class="icon-star"></span> 5,0</span>
-                <h2 class="section-title">Цветочный бал</h2>
-                <p>Классические цветочные композиции в авторской интерпретации. Ароматы раскрываются вместе с живым музыкальным сопровождением.</p>
-                <div class="slider-meta">
-                  <span>Дата: 16 июля</span>
-                  <span>Участников: 10 мастеров</span>
-                </div>
-                <div class="slider-actions">
-                  <a class="btn" href="competition.html">Подробнее</a>
-                </div>
-              </div>
-              <div class="slider-media">
-                <img src="media/img/slider3.svg" alt="Превью конкурса Цветочный бал" />
-              </div>
-            </article>
-          </div>
-          <div class="slider-controls" aria-hidden="true">
-            <div class="slider-indicators" role="presentation">
-              <span class="active"></span><span></span><span></span>
+        <div class="hero-rail" role="list" aria-label="Свежие релизы">
+          <article class="hero-item" role="listitem">
+            <div class="hero-item-header">
+              <span class="badge-rating"><span class="icon-star"></span> 4,9</span>
+              <h2 class="hero-item-title">Signature Nuit</h2>
             </div>
-            <div class="control-buttons">
-              <button type="button" aria-label="Предыдущий слайд">‹</button>
-              <button type="button" aria-label="Следующий слайд">›</button>
+            <p class="hero-item-text">Черная смородина, тёплый дым костра и белый кедр. Композиция для ночных прогулок и камерных встреч.</p>
+            <div class="hero-item-meta">
+              <span>Запуск: 12 мая</span>
+              <span>Флакон: 50 мл</span>
             </div>
-          </div>
+          </article>
+
+          <article class="hero-item" role="listitem">
+            <div class="hero-item-header">
+              <span class="badge-rating"><span class="icon-star"></span> 4,8</span>
+              <h2 class="hero-item-title">Azure Morning</h2>
+            </div>
+            <p class="hero-item-text">Нероли, морская соль и ветивер. Свежий, искрящийся старт для динамичного утра.</p>
+            <div class="hero-item-meta">
+              <span>Запуск: 28 мая</span>
+              <span>Флакон: 75 мл</span>
+            </div>
+          </article>
+
+          <article class="hero-item" role="listitem">
+            <div class="hero-item-header">
+              <span class="badge-rating"><span class="icon-star"></span> 5,0</span>
+              <h2 class="hero-item-title">Velvet Library</h2>
+            </div>
+            <p class="hero-item-text">Какао-бобы, табачный лист и замша. Тёплый, тактильный аромат для долгих вечеров.</p>
+            <div class="hero-item-meta">
+              <span>Запуск: 9 июня</span>
+              <span>Флакон: 60 мл</span>
+            </div>
+          </article>
+
         </div>
       </div>
     </section>
